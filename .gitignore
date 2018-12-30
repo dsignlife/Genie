@@ -3,3 +3,5 @@
 ################################################################################
 
 /.vs
+/BaseApplication/BaseApplication/obj
+/BaseApplication/.vs/BaseApplication/v16
