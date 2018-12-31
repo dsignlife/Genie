@@ -12,3 +12,5 @@
 /BaseApplication/.vs/BaseApplication/DesignTimeBuild
 /BaseApplication/Database/obj
 /BaseApplication/packages
+/BaseApplication/Repository/obj/Debug
+/BaseApplication/Repository/bin/Debug
