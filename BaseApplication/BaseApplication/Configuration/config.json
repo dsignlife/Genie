@@ -1,0 +1,5 @@
+﻿{
+  "ConnectionStrings": {
+    "GenieConnectionString": "Data Source=(localdb)\\ProjectsV13;Initial Catalog=master;Integrated Security=True;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultipleActiveResultSets=True"
+  }
+}

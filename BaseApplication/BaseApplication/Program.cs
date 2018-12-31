@@ -19,6 +19,18 @@ namespace BaseApplication
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
+                   .ConfigureAppConfiguration(SetupConfiguration)
+                   .UseStartup<Startup>();
+
+
+        private static void SetupConfiguration(WebHostBuilderContext context, IConfigurationBuilder builder)
+        {
+            //Remove default sources
+            builder.Sources.Clear();
+
+            builder.AddJsonFile("Configuration/config.json", false, true)
+                .AddEnvironmentVariables();
+        }
+
     }
 }

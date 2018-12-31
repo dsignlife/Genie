@@ -8,3 +8,7 @@
 /BaseApplication/BaseApplication/bin/Debug/netcoreapp2.1
 /BaseApplication/.vs/config
 /BaseApplication/Database/obj/Debug
+/BaseApplication/Database/bin/Debug
+/BaseApplication/.vs/BaseApplication/DesignTimeBuild
+/BaseApplication/Database/obj
+/BaseApplication/packages

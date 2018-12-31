@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Database
 {
-    class Program
+    public class Program
     {
+        public static void Main(string[] args)
+        {
+
+        }
     }
 }
