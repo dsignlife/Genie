@@ -61,6 +61,7 @@
     <Content Include="node_modules\bootswatch\dist\yeti\bootstrap.css" />
     <Content Include="node_modules\bootswatch\dist\yeti\bootstrap.min.css" />
     <Content Include="node_modules\bootswatch\package.json" />
+    <Content Include="node_modules\fontawesome\package.json" />
     <Content Include="node_modules\jquery\AUTHORS.txt" />
     <Content Include="node_modules\jquery\bower.json" />
     <Content Include="node_modules\jquery\external\sizzle\LICENSE.txt" />
@@ -266,6 +267,10 @@
     <None Include="node_modules\bootswatch\dist\yeti\_variables.scss" />
     <None Include="node_modules\bootswatch\LICENSE" />
     <None Include="node_modules\bootswatch\README.md" />
+    <None Include="node_modules\fontawesome\generate.js" />
+    <None Include="node_modules\fontawesome\index.js" />
+    <None Include="node_modules\fontawesome\Makefile" />
+    <None Include="node_modules\fontawesome\README.md" />
     <None Include="node_modules\jquery\dist\core.js" />
     <None Include="node_modules\jquery\dist\jquery.js" />
     <None Include="node_modules\jquery\dist\jquery.min.js" />
